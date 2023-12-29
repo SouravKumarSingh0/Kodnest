@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    
+</head>
+<body>
+    
+    <form style="background-color: darkgray;">
+        <fieldset>
+            <h1 style="text-align: center;"><u>Registration Form</u></h1>
+        <label>User Name :</label>
+        <input type="text" placeholder="Enter your name">
+        <br> <br>
+
+        <label>Email ID</label>
+        <input type="email" placeholder="Enter your Mail">
+        <br><br>
+
+        <label>Address</label>
+        <textarea placeholder="Enter your address here"></textarea>
+        <br> <br>
+        
+        <label>Gender :</label>
+        <label>Male: 
+        </label>
+        <input type="radio">
+
+        <label>Female: 
+        </label>
+        <input type="radio">
+
+        <label>Others: 
+        </label>
+        <input type="radio">
+        
+        <br><br>
+
+        <label>Month :</label>
+        <select id="month">
+            <option value="January">January</option>
+            <option value="February">February</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+        </select>
+
+        <br><br>
+        <div class="upload-section">
+            <label for="imageUpload">Image:</label>
+            <input type="file" id="imageUpload" accept="image/*">
+            <br><br>
+
+            <label for="resumeUpload">Resume:</label>
+            <input type="file" id="resumeUpload" accept=".pdf,.doc,.docx">
+            <br><br>
+
+            <label for="videoResumeUpload">Video Resume:</label>
+            <input type="file" id="videoResumeUpload" accept="video/*">
+            <br><br>
+        </div>
+
+        <label>
+            <input type="checkbox">
+            <br>I agree to the terms and conditions
+        </label>
+        <br><br>
+
+        <input type="submit" value="Submit">
+        </fieldset>
+
+        
+    </form>
+</body>
+</html>
