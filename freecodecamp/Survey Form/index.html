@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">My Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+  
+  <form id="survey-form">
+    <label for="name" id="name-label">Name:</label>
+    <input type="text" id="name" placeholder="Enter your name" required>
+
+    <label for="email" id="email-label">Email:</label>
+    <input type="email" id="email" placeholder="Enter your email" required>
+
+    <label for="number" id="number-label"> Mobile Number:</label>
+    <input type="number" id="number" placeholder="Enter a number" min="1" max="100" required>
+
+    <p>Which option best describes your current role?</p>
+    <select id="dropdown">
+      <option value="option1">Musician</option>
+      <option value="option2">Artist</option>
+      <option value="option3">Student</option>
+    </select>
+
+    <p>Would you recommend freeCodeCamp to a friend?</p>
+    <fieldset>
+      <legend>Select one option:</legend>
+      <label><input type="radio" name="radioGroup" value="radio1"> Yes</label>
+      <label><input type="radio" name="radioGroup" value="radio2"> No</label>
+      <label><input type="radio" name="radioGroup" value="radio3"> May be</label>
+    </fieldset>
+
+    <p>What would you like to see improved?</p>
+    <fieldset>
+      <legend>Check all that apply</legend>
+      <label><input type="checkbox" value="checkbox1"> Data Visualization</label>
+      <label><input type="checkbox" value="checkbox2"> Videos</label>
+      <label><input type="checkbox" value="checkbox3"> Wiki</label>
+      <label><input type="checkbox" value="checkbox4"> UserInterface</label>
+      <label><input type="checkbox" value="checkbox5"> Speed of website</label>
+      <label><input type="checkbox" value="checkbox6"> Options</label>
+      <label><input type="checkbox" value="checkbox7"> Additional things</label>
+    </fieldset>
+
+    <label for="comments">Additional Comments or suggestions?</label>
+    <textarea id="comments" rows="4" cols="50"></textarea>
+
+    <input type="submit" value="Submit" id="submit">
+  </form>
+</body>
+</html>
