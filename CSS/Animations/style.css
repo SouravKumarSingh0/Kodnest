@@ -1,0 +1,58 @@
+div{
+    background-color: aquamarine;
+    
+    width: 200px;
+    height: 200px;
+    animation-name: demo;
+    animation-duration: 5s;
+    position: relative;
+}
+
+#d1{
+    background-color: aquamarine;
+    width: 600px;
+    height: 600px;
+    animation-name: demo;
+    animation-duration: 10s;
+    position: relative;  
+}
+
+@keyframes d1 {
+    10%{
+        background-color: black;
+    }
+    40%{
+        background-color: chocolate;
+    }
+
+    50%{
+        background-color: blue;
+    }
+    70%{
+        background-color: burlywood;
+    }
+    90%{
+        background-color: cadetblue;
+    }
+
+    100%{
+        background-color: chartreuse;
+    }
+}
+
+@keyframes demo {
+    from{
+        width: 200px;
+        height: 80px;
+        background-color: chartreuse;
+        border-radius: 100%;
+        left: 10px;
+    }
+    to{
+        width: 200px;
+        height: 100px;
+        background-color: blue;
+        border-radius: 100%;
+        left: 90px;
+    }
+}
