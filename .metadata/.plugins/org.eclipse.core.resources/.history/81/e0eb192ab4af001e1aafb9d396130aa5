@@ -1,0 +1,28 @@
+package com.kodnest.jcf;
+
+import java.util.LinkedList;
+
+class DlinkedList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LinkedList a1 = new LinkedList();
+		a1.add(20);
+		a1.add(30);
+		a1.set(0, 76);
+		
+		LinkedList a2 = new LinkedList();
+		a2.add(20.5);
+		a2.add(30.9);
+		
+		LinkedList a3 = new LinkedList();
+		a3.addAll(a1);
+		a3.addAll(a2);
+		
+		System.out.println(a3);
+		//[76, 30, 20.5, 30.9]
+		
+		
+	}
+
+}
