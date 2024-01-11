@@ -1,0 +1,36 @@
+/* Universal selector*/
+*{
+    color: red;
+}
+
+/* Tag selector */
+p{
+    color: blueviolet;
+    background-color: cadetblue;
+    padding: 10px;
+
+}
+
+/* ID selector */
+#p3{
+    padding-block-start: 20px;
+}
+
+/* Class selector */
+.p2{
+    background-color: brown;
+}
+
+/* Group selector */
+#p4, #p5{
+    color: violet;
+}
+
+/* Descendent selector */
+thead th{
+    background-color: tomato;
+}
+
+tbody td{
+    background-color: aqua;
+ }

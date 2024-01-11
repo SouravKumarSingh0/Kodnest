@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form style="background-color: darkgray;">
+        <fieldset>
+            <h1 style="text-align: center;"><u>Registration Form</u></h1>
+            
+            <table>
+                <tr>
+                    <td><label for="username">User Name :</label></td>
+                    <td><input type="text" id="username" placeholder="Enter your name"></td>
+                    <td rowspan="4" style="vertical-align: top;">
+                        <label for="imageUpload">Image:</label>
+                        <input type="file" id="imageUpload" accept="image/*">
+                        <br>
+                        <label for="resumeUpload">Resume:</label>
+                        <input type="file" id="resumeUpload" accept=".pdf,.doc,.docx">
+                        <br>
+                        <label for="videoResumeUpload">Video Resume:</label>
+                        <input type="file" id="videoResumeUpload" accept="video/*">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email ID :</label></td>
+                    <td><input type="email" id="email" placeholder="Enter your Mail"></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Address :</label></td>
+                    <td><textarea id="address" placeholder="Enter your address here"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label>Gender :</label></td>
+                    <td>
+                        <label>Male:</label>
+                        <input type="radio">
+                        <label>Female:</label>
+                        <input type="radio">
+                        <label>Others:</label>
+                        <input type="radio">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="month">Month :</label></td>
+                    <td>
+                        <select id="month">
+                            <option value="January">January</option>
+                            <!-- Other options -->
+                        </select>
+                    </td>
+                    <td rowspan="1">
+                        <input type="checkbox">
+                        <label>I agree to the terms and conditions</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3"><input type="submit" value="Submit"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>

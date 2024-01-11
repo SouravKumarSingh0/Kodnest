@@ -1,0 +1,42 @@
+.container{
+    display: grid;
+    grid-template-columns: 10px;
+    margin: 50px;
+    padding: 80px;    
+}
+
+.box1{
+    background-color: burlywood;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    
+}
+
+.box2{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.box3{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.box4{
+    background-color: wheat;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.box5{
+    background-color: yellowgreen;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
