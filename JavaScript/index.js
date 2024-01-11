@@ -7,7 +7,7 @@ let c = 10;
 let d = 40;
 console.log("The sum is = "+(c+d))
 
-var x = 20;
+var x = 50;
 let y = 30;
 const z = 30;
 
