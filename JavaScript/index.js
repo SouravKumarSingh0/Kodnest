@@ -33,4 +33,31 @@ for(let j=1; j<=10; j++){
 }
 
 
+let s = 'gfg javascript';
+console.log(s.trim());
+console.log(s.charAt(2));
+console.log(s.slice());
+//s.concat()
+s.indexOf()
+s.lastIndexOf
+s.toUpperCase()
+s.toLowerCase()
+s.substring()
+s.toString()
+s.slice()
 
+let f = "10";
+console.log(f); //10
+
+console.log(f==10); //true
+//comparison by ignoring the type
+
+console.log(f===10); //false
+//comparison by considering the type
+
+// null - means 'no value'
+let g;
+console.log(g); // undefined
+//type of null returns object and null is treated as false value, accessing a variable which is not assigned returns undefined
+
+// undefined - means 'value is undefined'
