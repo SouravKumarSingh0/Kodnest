@@ -1,3 +1,4 @@
+// function creation
 function display(a){
     console.log("Display");
     return a+2;
@@ -14,3 +15,21 @@ console.log(a++); //10
 console.log(++a); //12
 console.log(--a); //11
 console.log(a--); //11
+
+
+// Object Creation
+let student = {
+    id:20,
+    age:28,
+    //function creation
+    add(){
+        console.log("function of student class.");
+    },
+    display : function(){
+        console.log("display function");
+    }
+}
+
+console.log("id"+student.id);
+console.log("age"+student.age);
+student.add();
