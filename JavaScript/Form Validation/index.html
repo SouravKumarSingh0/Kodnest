@@ -14,6 +14,8 @@
         <input type="password" id="password">
         <input type="submit" value="Submit">
     </form>
+
+    <p id="para"></p>
     <script>
 
      function submitForm(){
@@ -28,6 +30,9 @@
     if(b === ""){
         alert("Please enter the name");
     }
+
+    console.log(a+b+">>>>");
+    document.getElementById("para").innerHTML = (a+" "+b);
       }
     </script>
 </body>
