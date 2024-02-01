@@ -5,6 +5,7 @@ a.pop(); // remove element from the last
 a.sort(); // it will sort the order
 a.push(70); // add element in thi last
 a.reverse();
+a.toString(); // convert array to string
 console.log(a);
 
 
