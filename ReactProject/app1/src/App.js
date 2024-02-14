@@ -1,10 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
-  return (
-    <p>This is a paragraph</p>
-  );
+  return <p>this is para</p>;
 }
 
 export default App;
