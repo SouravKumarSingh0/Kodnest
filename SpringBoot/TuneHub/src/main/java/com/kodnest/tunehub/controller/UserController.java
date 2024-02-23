@@ -17,13 +17,11 @@ public class UserController {
 	@PostMapping("/register")
 	public String addUser(@ModelAttribute User user )
 	{
-		/*System.out.println(user.getUsername()+" "+user.getEmail()+
-				" "+user.getPassword()+" "
-				+user.getGender()+" "+user.getRole()+
-				" "+user.getAddress());
-				*/
-		
+		//email taken from registration form
 		String email = user.getEmail();
+		
+		//checking if the email as entered in registration form
+		// is present in DB or not.
 		boolean status = serviceImpl.emailExists(email);
 		
 		if(status == false) {

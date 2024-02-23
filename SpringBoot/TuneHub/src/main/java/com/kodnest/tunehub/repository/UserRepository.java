@@ -7,5 +7,4 @@ JpaRepository<User, String> {
 
 	public	User findByEmail(String email);
 
-
 }

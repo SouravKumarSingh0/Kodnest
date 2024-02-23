@@ -11,13 +11,13 @@ import jakarta.persistence.Id;
 public class User {
 	@GeneratedValue(strategy = GenerationType.UUID)
     @Id
-    private String userId;
-    private String username;
-    private String email;
-    private String password;
-    private String gender;
-    private String role;
-    private String address;
+     String userId;
+     String username;
+    String email;
+    String password;
+     String gender;
+     String role;
+     String address;
 
     // Default constructor
     public User() {
@@ -26,6 +26,7 @@ public class User {
 
     // Constructor with all fields
     public User(String userId, String username, String email, String password, String gender, String role, String address) {
+    	super();
         this.userId = userId;
         this.username = username;
         this.email = email;

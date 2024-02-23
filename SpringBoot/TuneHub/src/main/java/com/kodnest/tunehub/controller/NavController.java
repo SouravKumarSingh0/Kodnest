@@ -14,4 +14,9 @@ public class NavController {
 	public String registration() {
 		return "registration";
 	}
+	
+	@GetMapping("/newsong")
+	public String newsong() {
+		return "newsong";
+	}
 }

@@ -19,7 +19,7 @@ public class Song {
      String genre;
      String link;
 
-    @ManyToMany(mappedBy = "songs")
+    @ManyToMany
     List<Playlist> playlists;
 
     public Song() {
